@@ -1,29 +1,4 @@
-# Test log [windows]
-
-## More info and test log [ubuntu] in Github.Actions: [![statusbadge](../../actions/workflows/buildtest.yaml/badge.svg?branch=main&event=pull_request)](../../actions/workflows/buildtest.yaml)
-
-Build log (can be empty):
-```
-
-```
-
-Stdout+stderr (./omp4 0 in.pgm out0.pgm):
-```
-OK [program completed with code 0]
-    [STDERR]:  
-    [STDOUT]: 77 130 187
-Time (0 thread(s)): 8.6528 ms
-
-```
-     
-Stdout+stderr (./omp4 -1 in.pgm out-1.pgm):
-```
-OK [program completed with code 0]
-    [STDERR]:  
-    [STDOUT]: 77 130 187
-Time (-1 thread(s)): 11.7927 ms
-
-```
+Обработка изображений с использованием алгоритма ОЦУ
 
 Input image:
 
